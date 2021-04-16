@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.36.0 -->
+<interface>
+  <requires lib="gtk+" version="3.22"/>
+  <requires lib="webkit2gtk" version="2.12"/>
+  <object class="GtkRadioButton" id="radiobutton1">
+    <property name="label" translatable="yes">radiobutton</property>
+    <property name="visible">True</property>
+    <property name="can_focus">True</property>
+    <property name="receives_default">False</property>
+    <property name="active">True</property>
+    <property name="draw_indicator">True</property>
+  </object>
+  <object class="GtkWindow" id="window1">
+    <property name="name">window1</property>
+    <property name="width_request">722</property>
+    <property name="height_request">568</property>
+    <property name="can_focus">False</property>
+    <property name="default_width">722</property>
+    <property name="default_height">568</property>
+    <property name="icon_name">application-rss+xml</property>
+    <signal name="destroy" handler="on_window1_destroy" swapped="no"/>
+    <signal name="show" handler="on_window1_show" swapped="no"/>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkStack" id="stack1">
+            <property name="name">stack1</property>
+            <property name="width_request">675</property>
+            <property name="height_request">400</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="transition_type">slide-left</property>
+            <child>
+              <object class="GtkFixed">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkRadioButton" id="rbMarca">
+                    <property name="label" translatable="yes">Marca.com (Deportes)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbMarca_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                    <property name="y">48</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbMuy">
+                    <property name="label" translatable="yes">Muy interesante (Varios)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbMuy_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                    <property name="y">95</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rb20min">
+                    <property name="label" translatable="yes">20 minutos (Generalista)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rb20min_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbMundo">
+                    <property name="label" translatable="yes">El Mundo (Generalista)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbMundo_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                    <property name="y">145</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbPeriodico">
+                    <property name="label" translatable="yes">El Periodico (Generalista)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbPeriodico_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                    <property name="y">195</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbAs">
+                    <property name="label" translatable="yes">As.com (Deportes)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbAs_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                    <property name="y">245</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbPais">
+                    <property name="label" translatable="yes">El Pais (Generalista)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbPais_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">15</property>
+                    <property name="y">305</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbInvest">
+                    <property name="label" translatable="yes">Investigacionyciencia.es (Ciencia)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbInvest_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">326</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbAbc">
+                    <property name="label" translatable="yes">Diario ABC (Generalista)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbAbc_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">326</property>
+                    <property name="y">45</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbConfidencial">
+                    <property name="label" translatable="yes">El Confidencial (Cine)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbConfidencial_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">326</property>
+                    <property name="y">95</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbConfidencialEco">
+                    <property name="label" translatable="yes">El Confidencial (Economia)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbConfidencialEco_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">326</property>
+                    <property name="y">145</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbConfidencialTec">
+                    <property name="label" translatable="yes">El Confidencial (Tecnologia)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbConfidencialTec_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">326</property>
+                    <property name="y">195</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbEuropaCul">
+                    <property name="label" translatable="yes">Europapress.es (Cultura)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbEuropaCul_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">326</property>
+                    <property name="y">245</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkRadioButton" id="rbEuropaSoc">
+                    <property name="label" translatable="yes">Europapress.es (Sociedad)</property>
+                    <property name="width_request">100</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">False</property>
+                    <property name="active">True</property>
+                    <property name="draw_indicator">True</property>
+                    <property name="group">radiobutton1</property>
+                    <signal name="toggled" handler="on_rbEuropaSoc_toggled" swapped="no"/>
+                  </object>
+                  <packing>
+                    <property name="x">326</property>
+                    <property name="y">305</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="name">Fuentes</property>
+                <property name="title" translatable="yes">Fuentes</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow" id="scrolled1">
+                <property name="name">scrolled1</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="shadow_type">in</property>
+                <child>
+                  <object class="GtkTreeView" id="tv1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="enable_grid_lines">horizontal</property>
+                    <signal name="cursor-changed" handler="on_tv1_cursor_changed" swapped="no"/>
+                    <child internal-child="selection">
+                      <object class="GtkTreeSelection"/>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="name">Noticias</property>
+                <property name="title" translatable="yes">Noticias</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow" id="scrolled2">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="shadow_type">in</property>
+                <child>
+                  <object class="GtkViewport" id="viewport1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="WebKitWebView" type-func="webkit_web_view_get_type" id="webview1">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <child>
+                          <placeholder/>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+              <packing>
+                <property name="name">Leer</property>
+                <property name="title" translatable="yes">Leer</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="x">23</property>
+            <property name="y">75</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkStackSwitcher">
+            <property name="width_request">250</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="homogeneous">True</property>
+            <property name="stack">stack1</property>
+          </object>
+          <packing>
+            <property name="x">225</property>
+            <property name="y">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 15"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">145</property>
+            <property name="y">473</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child type="titlebar">
+      <object class="GtkHeaderBar" id="header1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="title" translatable="yes">Noticias RSS</property>
+        <property name="subtitle" translatable="yes">España</property>
+        <property name="show_close_button">True</property>
+        <property name="decoration_layout">menu:minimize,close</property>
+      </object>
+    </child>
+  </object>
+</interface>
