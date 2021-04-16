@@ -28,7 +28,7 @@ class GUI:
         self.builder.connect_signals(self)
 
         self.etiqueta = self.builder.get_object("label1")
-        GLib.timeout_add_seconds(1, self.timer)
+        GLib.timeout_add_seconds(20, self.timer)
 
         self.fuente = 'http://www.20minutos.es/rss'
         self.seleccion = self.builder.get_object("rb20min")
