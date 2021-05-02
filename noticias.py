@@ -32,7 +32,7 @@ class GUI:
 
         self.fuente = 'http://www.20minutos.es/rss'
         self.seleccion = self.builder.get_object("rb20min")
-        self.seleccion.set_active(True)
+        
         self.liststore = Gtk.ListStore(str)
         self.cell = Gtk.CellRendererText()
         self.col = Gtk.TreeViewColumn("Titular", self.cell, text=0)
@@ -42,6 +42,8 @@ class GUI:
         window.show_all()
 
     def on_window1_show(self, window):
+        self.seleccion.set_active(True)
+        
         d = feedparser.parse(self.fuente)
         treeview = self.builder.get_object('tv1')
         treeview.set_model(self.liststore)
